@@ -1,0 +1,25 @@
+img {
+    border: 0 none;
+}
+
+a {
+    color: #0B76AE;
+    text-decoration: none;
+}
+
+html {overflow-y: scroll;}
+
+body {
+    background-color:#666666;
+    color:#333333;
+    font-family: "Bitstream Vera Sans", "helvetica", "arial", sans-serif;
+    margin:0;
+    padding: 0px;
+}
+
+div#content {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #ffffff;
+}
