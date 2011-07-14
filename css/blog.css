@@ -10,27 +10,23 @@ a {
 html {overflow-y: scroll;}
 
 body {
-    color:#444444;
+    background-color:#888888;
+    color:#333333;
     font-family: "Bitstream Vera Sans", "helvetica", "arial", sans-serif;
     margin:0;
     padding: 0px;
 }
 
 div#content {
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
     padding: 10px;
+    background: #eeeeee;
 }
 
 .greeting {
     font-size: 2em;
     text-align: left;
     margin: 0 auto;
-    padding-top: 100px;
-}
-
-.intro {
-    font-size: 1.4em;
-    text-align: right;
-    display: block;
+    padding-top: 50px;
 }

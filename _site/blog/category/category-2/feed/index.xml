@@ -10,7 +10,7 @@
     <title>GIS programmer writing Python in Emacs</title>
     <link>http://mishkovskyi.net/blog</link>
     <description>(loop [code '()] (if (perfect? code) code (recur (conj code bug))))</description>
-    <pubDate>Wed, 13 Jul 2011 13:39:55 GMT</pubDate>
+    <pubDate>Thu, 14 Jul 2011 14:35:39 GMT</pubDate>
     <generator>Blogofile</generator>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
