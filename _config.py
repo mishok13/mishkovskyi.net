@@ -19,7 +19,7 @@
 #  If you're hosting a blogofile powered site as a subdirectory of a larger
 #  non-blogofile site, then you would set the site_url to the full URL
 #  including that subdirectory: "http://www.yoursite.com/path/to/blogofile-dir"
-site.url = "http://mishkovskyi.net/"
+site.url = "http://mishkovskyi.net"
 
 #### Blog Settings ####
 blog = controllers.blog
@@ -34,7 +34,7 @@ blog.enabled = True
 #  and you set blog_path to "/blog" your full blog URL would be
 #  "http://www.yoursite.com/~ryan/blog"
 #  Leave blank "" to set to the root of site_url
-blog.path = "blog"
+blog.path = "/blog"
 
 ## blog_name -- Your Blog's name.
 # This is used repeatedly in default blog templates
@@ -51,7 +51,7 @@ blog.posts_per_page = 5
 blog.auto_permalink.enabled = True
 blog.auto_permalink.path = ":blog_path/:year/:month/:day/:title"
 
-blog.disqus.enabled = False
+blog.disqus.enabled = True
 blog.disqus.name = "mishok13"
 
 blog.custom_index = False
