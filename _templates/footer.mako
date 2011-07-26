@@ -1,9 +1,7 @@
 <p id="credits">
 Powered by <a href="http://www.blogofile.com">Blogofile</a>.<br/>
 <br/>
-RSS feeds for entries
-(<a href="${bf.util.site_path_helper(bf.config.blog.path,'feed','index.xml')}">rss</a> or
-<a href="${bf.util.site_path_helper(bf.config.blog.path,'feed','atom','index.xml')}">atom</a>)
+<a href="http://feeds.feedburner.com/mishok13">RSS feed</a> for entries
 % if bf.config.blog.disqus.enabled:
  and <a
 href="http://${bf.config.blog.disqus.name}.disqus.com/latest.rss">comments</a>.
