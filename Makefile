@@ -11,7 +11,6 @@ build:
 	mkdir -p $(SITE_BUILD_ROOT)
 	git pull
 	blogofile build
-	cp -R $(SITE_BUILD) $(SITE_ROOT)
 
 install: build
 	cp -R $(SITE_BUILD) $(SITE_ROOT)
