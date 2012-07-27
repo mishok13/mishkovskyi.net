@@ -18,5 +18,5 @@ You can contact me in a number of ways. Here's an almost up to date
 
 <p>
 If you feel like reading resumes of random people on the internet,
-I have <a href="/resume">one<a/> just for you.
+I have <a href="/resume">one</a> just for you.
 </p>
