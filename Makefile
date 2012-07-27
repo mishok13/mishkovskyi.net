@@ -23,5 +23,5 @@ resume:
 	rm -rf cv
 	git clone $(RESUME_GIT) cv
 	pdflatex -output-directory cv cv/cv.tex
-	cp cv.pdf resume/resume.odf
+	cp cv/cv.pdf resume/resume.odf
 	rm -rf cv
