@@ -2,15 +2,14 @@
 <p class="intro">This a carefully crafted list of places through which you can
   contact me, see what I do for living or what kinds of time-spending activities
 I'm involved in.</p>
-<h3>Social networks and professional sites</h3>
+<h3>Social networks</h3>
 <ul>
   <li><a href="http://www.linkedin.com/in/mishok13">LinkedIn</a></li>
   <li><a href="http://www.facebook.com/mishok13">Facebook</a></li>
   <li><a href="http://twitter.com/mishok13">twitter</a></li>
   <li><a href="https://github.com/mishok13">GitHub</a></li>
-  <li><a href="http://bitbucket.org/mishok13">Bitbucket</a></li>
   <li><a href="http://www.openstreetmap.org/user/mishok13">OpenStreetMap</a></li>
-  <li><a href="http://www.developers.org.ua/m/mishok13/">developers.org.ua</a></li>
+  <li><a href="http://dou.ua/users/mishok13/">developers.org.ua</a></li>
 </ul>
 <h3>Direct contacts</h3>
 <dl>
