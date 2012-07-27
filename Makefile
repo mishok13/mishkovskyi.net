@@ -4,7 +4,7 @@ SITE_ROOT = /var/www/static
 RESUME_GIT = git://github.com/mishok13/cv.git
 RESUME_NAME = cv.tex
 
-.PHONY: build reinstall install clean resume
+.PHONY: build fullinstall install clean resume
 
 clean:
 	rm -rf $(SITE_BUILD)
@@ -17,7 +17,7 @@ build:
 install:
 	cp -R $(SITE_BUILD) $(SITE_ROOT)
 
-reinstall: clean build resume install
+fullinstall: clean build resume install
 
 resume:
 	rm -rf cv
