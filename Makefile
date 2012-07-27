@@ -14,13 +14,13 @@ build:
 	git pull
 	blogofile build
 
-install: build
+install:
 	cp -R $(SITE_BUILD) $(SITE_ROOT)
 
-reinstall: clean install
+reinstall: clean build resume install
 
 resume:
 	rm -rf cv
 	git clone $(RESUME_GIT) cv
 	pdflatex -output-directory cv cv/cv.tex
-	cp cv.pdf $(SITE_BUILD_ROOT)resume/resume.odf
+	cp cv.pdf resume/resume.odf
