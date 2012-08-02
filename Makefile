@@ -25,4 +25,5 @@ resume:
 	pdflatex -output-directory cv cv/cv.tex
 	mkdir -p resume
 	cp cv/cv.pdf resume/resume.pdf
+	rm -rf cv
 	
