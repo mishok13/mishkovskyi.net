@@ -17,7 +17,7 @@ build:
 install:
 	cp -R $(SITE_BUILD) $(SITE_ROOT)
 
-fullinstall: clean build resume install
+fullinstall: clean resume build install
 
 resume:
 	rm -rf cv
@@ -25,4 +25,4 @@ resume:
 	pdflatex -output-directory cv cv/cv.tex
 	mkdir -p resume
 	cp cv/cv.pdf resume/resume.pdf
-	rm -rf cv
+	
