@@ -26,3 +26,4 @@ resume:
 	mkdir -p resume
 	cp cv/cv.pdf resume/resume.pdf
 	rm -rf cv
+	
