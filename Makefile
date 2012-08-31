@@ -17,7 +17,7 @@ build:
 install:
 	cp -R $(SITE_BUILD) $(SITE_ROOT)
 
-fullinstall: clean build resume install
+fullinstall: clean resume build install
 
 resume:
 	rm -rf cv
